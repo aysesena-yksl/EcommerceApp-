@@ -13,7 +13,7 @@
     <a href="Basket.php"><button type="submit" class="btn btn-danger ml-1 text-center"</a>
 </div>
 
-<h2 class="text center text danger shadow p-2 bg-light font-weight-light"><i class="">ÜRÜNLER</i> </h2>
+<h2 class="text center text danger shadow p-2"><i class="">ÜRÜNLER</i> </h2>
 
 <?php
 session_start();
@@ -37,7 +37,7 @@ foreach($products as $product){
         <button type="submit">Sepete Ekle</button>
     </form>
 
-<?php } ?>
+
 
 
 </div>
